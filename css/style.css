@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Nunito, sans-serif;
+    line-height: 1.5;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+  font-family: Wix Madefor Display, sans-serif;
+  font-size: 1.5rem;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-family: Wix Madefor Display, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 5px #000;
+}
+
+#welcome,
+#team {
+    background-color: #7251B5;
+    color: white;
+}
+
+#team,
+footer {
+    text-align: center;
+}
+
+#favourites,
+footer {
+    background-color: black;
+    color: #DEC9E9;
+}
+
