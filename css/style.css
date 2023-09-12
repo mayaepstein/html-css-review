@@ -1,49 +1,61 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-}
-
-*, *::before, *::after {
-    box-sizing: inherit;
 }
 
 body {
-    font-family: Nunito, sans-serif;
+    font-family: 'Nunito', sans-serif;
+    /* color: #fff */
     line-height: 1.5;
+    margin: 0;
+
 }
 
 .wrapper {
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
+    padding: 0 2em;
 }
 
-h2 {
-  font-family: Wix Madefor Display, sans-serif;
-  font-size: 1.5rem;
+/* headings */
+
+#company-name {
+    color: #DEC9E9;
+    font-size: 1.5rem;
 }
 
-h1 {
-    text-transform: uppercase;
-    font-size: 4rem;
-    font-family: Wix Madefor Display, sans-serif;
-    color: white;
-    text-shadow: 1px 1px 5px #000;
-}
-
-#welcome,
+#intro,
+#fan-fav,
 #team {
-    background-color: #7251B5;
-    color: white;
+    padding: 4em 0;
 }
 
-#team,
-footer {
-    text-align: center;
-}
-
-#favourites,
-footer {
+#header {
     background-color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    text-decoration: none;
     color: #DEC9E9;
 }
 
+nav ul li a:hover,
+nav ul li a:focus {
+    color: white;
+}
+
+#hero-banner {
+    height: 60vh;
+
+    background-color: #7251B5;
+
+    background-image: url(../images/ice-cream-cones.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}

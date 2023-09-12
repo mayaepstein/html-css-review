@@ -11,25 +11,30 @@
   <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Wix+Madefor+Display:wght@800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <p>Scoopalicious<p>
-    <nav>
-     <ul>
-       <li>Flavours</li>
-       <li>Locations</li>
-       <li>Shop online</li>
-     </ul>
-    </nav>
-
-   <!-- In this hero section you will use the provided ice-cream-cones.jpg as a background image behind the word Scoopalicious. This would be the only section you will want to give a height. -->
-    <section class="hero">
-      <img src="images/ice-cream-cones.jpg" alt="">
-      <h1>Scoopalicious</h1>
-    </section>
+  <header id="header">
+    <div class="wrapper">
+      <span id="company-name">Scoopalicious</span>
+      <nav>
+        <ul>
+          <li><a href="#">Flavours</a></li>
+          <li><a href="#">Locations</a></li>
+          <li><a href="#">Shop online</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section id="welcome">
+   <!-- In this hero section you will use the provided ice-cream-cones.jpg as a background image behind the word Scoopalicious. This would be the only section you will want to give a height. -->
+    <section id="hero-banner">
+      <div class="wrapper">
+        <h1>Scoopalicious</h1>
+      </div>
+    </section>
+  
+
+  
+    <section id="intro">
       <div class="wrapper">
         <h2>Welcome to Scoopalicious!</h2>
 
@@ -37,83 +42,77 @@
       </div>
     </section>
 
-    <section id="favourites">
+    <section id="fan-fav">
       <div class="wrapper">
         <h2>Top 5 Fan Favourites</h2>
         
-        <div>
-          <h3>Choco-Obsession</h3>
-        
-          <p>A rich, velvety dark chocolate ice cream made from a blend of organic cocoa and creamy coconut cream.</p>
-        </div>
-
-        <div>
-          <h3>Very Berry Blast</h3>
-        
-          <p>A harmonious explosion of raspberry, blackberry, and blueberry swirls in a smooth almond base.</p>
-        </div>
-
-        <div>
-          <h3>Cookie Crumble Craze</h3>
-        
-          <p>Scrummy cookie crumbles meet the creaminess of cashew-based vanilla ice cream.</p>
-        </div>
-
-        <div>
-          <h3>Peanut Butter Paradise</h3>
-        
-          <p>Luscious peanut butter ribbons swirled throughout a silky oat milk ice cream.</p>
-        </div>
-
-        <div>
-          <h3>Mango Tango Sorbet</h3>
-        
-          <p>A zesty dance of mango and lime, perfect for a refreshing treat on a hot summer day.</p>
-        </div>
+        <ol>
+          <li>
+            <h3>Choco-Obsession</h3>
+            <p>A rich, velvety dark chocolate ice cream made from a blend of organic cocoa and creamy coconut cream.</p>
+          </li>
+          <li>
+            <h3>Very Berry Blast</h3>
+            <p>A harmonious explosion of raspberry, blackberry, and blueberry swirls in a smooth almond base.</p>
+          </li>
+          <li>
+            <h3>Cookie Crumble Craze</h3>
+            <p>Scrummy cookie crumbles meet the creaminess of cashew-based vanilla ice cream.</p>
+          </li>
+          <li>
+            <h3>Peanut Butter Paradise</h3>
+            <p>Luscious peanut butter ribbons swirled throughout a silky oat milk ice cream.</p>
+          </li>
+          <li>
+            <h3>Mango Tango Sorbet</h3>
+            <p>A zesty dance of mango and lime, perfect for a refreshing treat on a hot summer day.<p>
+          </li>
+        </ol> 
       </div>
     </section>
 
    <section id="team"> 
-      <div  class="wrapper">
-       <h2>Meet Our Team</h2>
-
-        <p>We're passionate about ice cream, and our dedicated team of flavour wizards works diligently to create and perfect the most delectable vegan desserts.</p>
-
-    
-        <div>
+    <div class="wrapper">
+      <h2>Meet Our Team</h2>
+      <p>We're passionate about ice cream, and our dedicated team of flavour wizards works diligently to create and perfect the most delectable vegan desserts.</p>
+      <div class="team-grid">
+        <article>
           <!-- Display the image: sophia-lee.jpg -->
-          <img src="images/sophia-lee.jpg" alt="">
+          <img src="images/sophia-lee.jpg" alt="Profile pic of Sophia">
           <h3>Sophia Lee</h3>
           <p>Founder & Flavour Guru</p>
-        </div>
+        </article>
 
-        <div>
+        <article>
           <!-- Display the image: henry-chen.jpg -->
-          <img src="images/henry-chen.jpg" alt="">
+          <img src="images/henry-chen.jpg" alt="Profile pic of Henry">
           <h3>Henry Chen</h3>
           <p>Master Scooper</p>
-        </div>
-        <div>
+        </article>
+
+        <article>
           <!-- Display the image: olivia-parks.jpg -->
-          <img src="images/olivia-parks.jpg" alt="">
+          <img src="images/olivia-parks.jpg" alt="Profile pic of Olivia">
           <h3>Olivia Parks</h3>
           <p>Vegan Dessert Chef</p>
-        </div>
-    
-        <div>
+        </article>
+
+        <article>
           <!-- Display the image: elijah-taylor.jpg -->
-          <img src="images/elijah-taylor.jpg" alt="">
+          <img src="images/elijah-taylor.jpg" alt="Profile pic of Elijah">
           <h3>Elijah Taylor</h3>
           <p>Flavour Innovator</p>
-        </div>
+        </article>
       </div>
     </section>
   </main>
 
   <footer>
-   <p>All rights reserved © 2023 Scoopalicious</p>
+    <div class="wrapper">
+      <small>All rights reserved © 2023 Scoopalicious</small>
+    </div>
   </footer>
-
+<!-- :D -->
   
 </body>
 </html>
